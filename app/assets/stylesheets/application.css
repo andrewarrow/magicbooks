@@ -22,9 +22,6 @@ body {
   padding-bottom: 40px;
 }
 
-/* background-color: #F8F8F8;
-   border-bottom: 1px solid #E0E0E0; */
-
 li {
   font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -37,6 +34,7 @@ li {
   height: 400px;
   border-bottom: 1px solid #DADADA;
   text-align: center;
+  margin: 0 0 30px 0;
 }
 
 h1 {
@@ -45,5 +43,20 @@ h1 {
   font-size: 40px;
   font-style: normal;
   font-weight: bold;
+}
+
+#splash h1 {
   margin: 30px 0 10px 0;
 }
+
+h2 {
+  color: #454545;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#welcome-signup { margin: 0 0 0 20px; }
+#welcome-signup .btn-large { display: block; font-size: 18px; }
+#welcome-signup p { margin: 10px 0 0 0; text-align: center; color: #777; }
