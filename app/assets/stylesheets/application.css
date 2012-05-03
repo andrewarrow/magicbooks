@@ -57,6 +57,8 @@ h2 {
   font-weight: bold;
 }
 
-#welcome-signup { margin: 0 0 0 20px; }
+#welcome-signup { margin: 25px 0 0 20px; }
 #welcome-signup .btn-large { display: block; font-size: 18px; }
 #welcome-signup p { margin: 10px 0 0 0; text-align: center; color: #777; }
+
+#welcome-line { border-bottom: 1px solid #CECECE; margin: 10px 0 20px 0; }
