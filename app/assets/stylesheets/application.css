@@ -91,8 +91,12 @@ h3 {
   font-size: 15px; font-style: normal; font-weight: normal; line-height: 20px;}
 #welcome-info img { margin: 10px 0 0 10px; } 
 
-#welcome-video { background-color: #F2F2F2; border: 1px solid #E4E4E4; padding: 20px 20px 20px 20px; margin: 0 0 20px 0; }
-#welcome-video-img { width: 420px; height: 252px; }
+#welcome-video { background-color: #F2F2F2; border: 1px solid #E4E4E4; padding: 10px 10px 10px 10px; margin: 0 0 20px 0; }
+#welcome-video p { margin: 10px 0 0 0 }
+#welcome-video-img img {
+  border: 1px solid #999;
+  cursor: pointer;
+}
 
 .big-quote {
   color: #333;
