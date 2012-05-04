@@ -12,6 +12,10 @@
  *= require_self
 */
 
+.nav-container {
+  height: 60px;
+}
+
 body {
   font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 13px;
