@@ -70,3 +70,6 @@ h3 {
 #welcome-info p { color: #454545; font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 15px; font-style: normal; font-weight: normal; line-height: 20px;}
 #welcome-info img { margin: 10px 0 0 10px; } 
+
+#welcome-video { background-color: #F2F2F2; border: 1px solid #E4E4E4; padding: 20px 20px 20px 20px; }
+#welcome-video-img { width: 420px; height: 252px; }
