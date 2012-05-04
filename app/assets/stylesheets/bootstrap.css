@@ -3557,21 +3557,21 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar-inner {
-  min-height: 40px;
+  min-height: 60px;
   padding-right: 20px;
   padding-left: 20px;
-  background-color: #2c2c2c;
-  background-image: -moz-linear-gradient(top, #333333, #222222);
-  background-image: -ms-linear-gradient(top, #333333, #222222);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));
-  background-image: -webkit-linear-gradient(top, #333333, #222222);
-  background-image: -o-linear-gradient(top, #333333, #222222);
-  background-image: linear-gradient(top, #333333, #222222);
+  background-color: #f6f6f6;
+  background-image: -moz-linear-gradient(top, #f6f6f6, #f6f6f6);
+  background-image: -ms-linear-gradient(top, #f6f6f6, #f6f6f6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#f6f6f6));
+  background-image: -webkit-linear-gradient(top, #f6f6f6, #f6f6f6);
+  background-image: -o-linear-gradient(top, #f6f6f6, #f6f6f6);
+  background-image: linear-gradient(top, #f6f6f6, #f6f6f6);
   background-repeat: repeat-x;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#f6f6f6', GradientType=0);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
      -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
@@ -3586,7 +3586,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar {
-  color: #999999;
+  color: #333333;
 }
 
 .navbar .brand:hover {
@@ -3596,30 +3596,30 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   display: block;
   float: left;
-  padding: 8px 20px 12px;
+  padding: 18px 20px 22px;
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
   line-height: 1;
-  color: #999999;
+  color: #333333;
 }
 
 .navbar .navbar-text {
   margin-bottom: 0;
-  line-height: 40px;
+  line-height: 60px;
 }
 
 .navbar .navbar-link {
-  color: #999999;
+  color: #333333;
 }
 
 .navbar .navbar-link:hover {
-  color: #ffffff;
+  color: #999999;
 }
 
 .navbar .btn,
 .navbar .btn-group {
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .navbar .btn-group .btn {
@@ -3645,7 +3645,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-form select,
 .navbar-form .radio,
 .navbar-form .checkbox {
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .navbar-form input,
@@ -3674,7 +3674,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search {
   position: relative;
   float: left;
-  margin-top: 6px;
+  margin-top: 16px;
   margin-bottom: 0;
 }
 
@@ -3685,8 +3685,8 @@ input[type="submit"].btn.btn-mini {
   font-weight: normal;
   line-height: 1;
   color: #ffffff;
-  background-color: #626262;
-  border: 1px solid #151515;
+  background-color: #ffffff;
+  border: 1px solid #b3b3b3;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
      -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
           box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
@@ -3768,9 +3768,9 @@ input[type="submit"].btn.btn-mini {
 
 .navbar .nav > li > a {
   float: none;
-  padding: 9px 10px 11px;
+  padding: 19px 10px 21px;
   line-height: 19px;
-  color: #999999;
+  color: #333333;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
@@ -3778,35 +3778,35 @@ input[type="submit"].btn.btn-mini {
 .navbar .btn {
   display: inline-block;
   padding: 4px 10px 4px;
-  margin: 5px 5px 6px;
+  margin: 15px 5px 16px;
   line-height: 18px;
 }
 
 .navbar .btn-group {
-  padding: 5px 5px 6px;
+  padding: 15px 5px 16px;
   margin: 0;
 }
 
 .navbar .nav > li > a:hover {
-  color: #ffffff;
+  color: #999999;
   text-decoration: none;
   background-color: transparent;
 }
 
 .navbar .nav .active > a,
 .navbar .nav .active > a:hover {
-  color: #ffffff;
+  color: #999999;
   text-decoration: none;
-  background-color: #222222;
+  background-color: #f6f6f6;
 }
 
 .navbar .divider-vertical {
   width: 1px;
-  height: 40px;
+  height: 60px;
   margin: 0 9px;
   overflow: hidden;
-  background-color: #222222;
-  border-right: 1px solid #333333;
+  background-color: #f6f6f6;
+  border-right: 1px solid #f6f6f6;
 }
 
 .navbar .nav.pull-right {
@@ -3820,18 +3820,18 @@ input[type="submit"].btn.btn-mini {
   padding: 7px 10px;
   margin-right: 5px;
   margin-left: 5px;
-  background-color: #2c2c2c;
-  *background-color: #222222;
-  background-image: -ms-linear-gradient(top, #333333, #222222);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));
-  background-image: -webkit-linear-gradient(top, #333333, #222222);
-  background-image: -o-linear-gradient(top, #333333, #222222);
-  background-image: linear-gradient(top, #333333, #222222);
-  background-image: -moz-linear-gradient(top, #333333, #222222);
+  background-color: #f6f6f6;
+  *background-color: #f6f6f6;
+  background-image: -ms-linear-gradient(top, #f6f6f6, #f6f6f6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#f6f6f6));
+  background-image: -webkit-linear-gradient(top, #f6f6f6, #f6f6f6);
+  background-image: -o-linear-gradient(top, #f6f6f6, #f6f6f6);
+  background-image: linear-gradient(top, #f6f6f6, #f6f6f6);
+  background-image: -moz-linear-gradient(top, #f6f6f6, #f6f6f6);
   background-repeat: repeat-x;
-  border-color: #222222 #222222 #000000;
+  border-color: #f6f6f6 #f6f6f6 #d0d0d0;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#f6f6f6', GradientType=0);
   filter: progid:dximagetransform.microsoft.gradient(enabled=false);
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
      -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
@@ -3843,13 +3843,13 @@ input[type="submit"].btn.btn-mini {
 .navbar .btn-navbar.active,
 .navbar .btn-navbar.disabled,
 .navbar .btn-navbar[disabled] {
-  background-color: #222222;
-  *background-color: #151515;
+  background-color: #f6f6f6;
+  *background-color: #e9e9e9;
 }
 
 .navbar .btn-navbar:active,
 .navbar .btn-navbar.active {
-  background-color: #080808 \9;
+  background-color: #dddddd \9;
 }
 
 .navbar .btn-navbar .icon-bar {
