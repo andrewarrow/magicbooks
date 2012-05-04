@@ -19,7 +19,6 @@ body {
   line-height: 20px;
   color: #333;
   padding-top: 60px;
-  padding-bottom: 40px;
 }
 
 li {
@@ -35,6 +34,19 @@ li {
   border-bottom: 1px solid #DADADA;
   text-align: center;
   margin: 0 0 30px 0;
+}
+
+#footer1 {
+  background-color: #252525;
+  height: 150px;
+  margin: 30px 0 0 0;
+  color: white;
+}
+
+#footer2 {
+  background-color: #1B1B1B;
+  height: 60px;
+  color: white;
 }
 
 h1 {
@@ -87,5 +99,13 @@ h3 {
 .quote-name {
   color: #777;
   font-size: 16px;
-  margin: 5px 0 0 0;
+  margin: 5px 0 20px 0;
+}
+
+#welcome-alert {
+  text-align: center;
+  height: 60px;
+}
+#welcome-alert a {
+  margin: 10px 0 0 0;
 }
